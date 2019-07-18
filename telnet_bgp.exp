@@ -1,0 +1,56 @@
+#!/usr/bin/expect -f
+set timout 10
+set dst_host "10.10.10.9"
+set dst_port "2626"
+set pw "root\n"
+set g_conf "configure terminal\n"
+set s_local_as "router bgp  7676\n"
+set s_router_id "bgp  router-id  1.1.1.1\n"
+set s_local_net "network  192.168.5.0/24\n"
+set s_neighbor_net_as "neighbor  192.168.2.1 remote-as  7677\n"
+set s_route_map "route-map  1.1.1.1 permit  100\n"
+set s_next_hop "set ip next-hop  192.168.2.2\n"
+spawn telnet $dst_host $dst_port
+expect "Password:"
+send  $pw
+send "enable\n"
+expect "Password:"
+send $pw 
+expect {
+	"#" 
+	{
+		send $g_conf
+			expect {
+				"config" 
+				{
+						send $s_local_as
+						send $s_router_id
+						send $s_local_net
+						send $s_neighbor_net_as
+						send "exit\n"
+				}
+
+			}
+	}
+}
+expect {
+	"config"
+	{
+		send $s_route_map
+			expect {
+				"config-route-map"
+				{
+					send $s_next_hop
+						send "end\n"
+				}
+			}
+	}
+}
+expect {
+	"#"
+	{
+		send "quit\n"
+	}
+}
+send "exit \n"
+interact
