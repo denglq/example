@@ -1,0 +1,356 @@
+0.8.0:    (2009-04-17)
+----------------------
+
+New stable release.
+
+------------------------------------------------------------------------
+r3514 | shlomif | 2009-04-17 14:44:31 +0300 (Fri, 17 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/CMakeLists.txt
+   M /fcfs-rwlock/trunk/pthreads/ver.txt
+
+Bumped the version to 0.7.2: CMake: added more generated files to the ignore.
+
+------------------------------------------------------------------------
+r3513 | shlomif | 2009-04-17 14:31:34 +0300 (Fri, 17 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads
+   M /fcfs-rwlock/trunk/pthreads/CMakeLists.txt
+
+Added files to the svn:ignore.
+
+------------------------------------------------------------------------
+r3512 | shlomif | 2009-04-17 14:29:30 +0300 (Fri, 17 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/ver.txt
+
+Bumped the version number to 0.7.1 to indicate a development version.
+
+------------------------------------------------------------------------
+r3511 | shlomif | 2009-04-17 14:28:52 +0300 (Fri, 17 Apr 2009) | 4 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/AUTHORS
+   M /fcfs-rwlock/trunk/pthreads/CMakeLists.txt
+   M /fcfs-rwlock/trunk/pthreads/pthread/rwlock_fcfs.h
+   M /fcfs-rwlock/trunk/pthreads/rwlock.c
+   M /fcfs-rwlock/trunk/pthreads/test_rwlock.c
+   A /fcfs-rwlock/trunk/pthreads/test_rwlock_2.c
+
+Added test_rwlock_2.c to test for a bug which is now corrected.
+
+Thanks to Luo Lei!
+
+------------------------------------------------------------------------
+r3510 | shlomif | 2009-04-16 15:00:39 +0300 (Thu, 16 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/pthread/rwlock_fcfs.h
+
+Added extern "C" where appropriate.
+
+------------------------------------------------------------------------
+r3509 | shlomif | 2009-04-16 14:57:42 +0300 (Thu, 16 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/CMakeLists.txt
+   D /fcfs-rwlock/trunk/pthreads/rwlock_fcfs.h
+   D /fcfs-rwlock/trunk/pthreads/rwlock_fcfs_queue.h
+
+Removed the .h files in the root directory. Mow there's only one copy of them.
+
+------------------------------------------------------------------------
+r3508 | shlomif | 2009-04-16 14:51:59 +0300 (Thu, 16 Apr 2009) | 1 line
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/test_queue.cpp
+
+Removed more trailing space
+------------------------------------------------------------------------
+r3507 | shlomif | 2009-04-16 14:48:04 +0300 (Thu, 16 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/pthread/rwlock_fcfs.h
+   M /fcfs-rwlock/trunk/pthreads/pthread/rwlock_fcfs_queue.h
+
+Removed more trailing space.
+
+------------------------------------------------------------------------
+r3506 | shlomif | 2009-04-16 14:46:38 +0300 (Thu, 16 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/CMakeLists.txt
+
+Removed more trailing space.
+
+------------------------------------------------------------------------
+r3505 | shlomif | 2009-04-16 14:43:31 +0300 (Thu, 16 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/queue.c
+   M /fcfs-rwlock/trunk/pthreads/rwlock.c
+   M /fcfs-rwlock/trunk/pthreads/rwlock_fcfs.h
+   M /fcfs-rwlock/trunk/pthreads/rwlock_fcfs_queue.h
+   M /fcfs-rwlock/trunk/pthreads/test_rwlock.c
+
+Removed trailing whitespace from the C code.
+
+------------------------------------------------------------------------
+r3503 | shlomif | 2009-04-08 11:41:19 +0300 (Wed, 08 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/AUTHORS
+
+Added "Lou Lei" to the AUTHORS.
+
+------------------------------------------------------------------------
+r3502 | shlomif | 2009-04-08 11:38:37 +0300 (Wed, 08 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/AUTHORS
+
+Revised Eric Crahen's entry in AUTHORS .
+
+------------------------------------------------------------------------
+r3497 | shlomif | 2009-04-07 21:23:46 +0300 (Tue, 07 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/ChangeLog
+
+Prepared for the stable release.
+
+------------------------------------------------------------------------
+
+0.6.0:    (2009-04-07)
+----------------------
+
+New stable release.
+
+------------------------------------------------------------------------
+r3496 | shlomif | 2009-04-07 21:22:03 +0300 (Tue, 07 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/COPYING
+
+Clarified the license into X11L + CC-Zero.
+
+------------------------------------------------------------------------
+r3495 | shlomif | 2009-04-07 21:03:02 +0300 (Tue, 07 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/ChangeLog
+   M /fcfs-rwlock/trunk/pthreads/INSTALL
+
+Updated the INSTALL.
+
+------------------------------------------------------------------------
+r3494 | shlomif | 2009-04-07 21:01:37 +0300 (Tue, 07 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/ChangeLog
+   M /fcfs-rwlock/trunk/pthreads/ver.txt
+
+Bumped the version number and updated the ChangeLog.
+
+------------------------------------------------------------------------
+r3493 | shlomif | 2009-04-07 21:00:13 +0300 (Tue, 07 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/test_rwlock.c
+
+Got rid of memory leaks in test_rwlock.c.
+
+------------------------------------------------------------------------
+r3491 | shlomif | 2009-04-07 20:44:34 +0300 (Tue, 07 Apr 2009) | 4 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/man/pthread_rwlock_fcfs.pod
+   M /fcfs-rwlock/trunk/pthreads/pthread/rwlock_fcfs.h
+   M /fcfs-rwlock/trunk/pthreads/rwlock.c
+   M /fcfs-rwlock/trunk/pthreads/rwlock_fcfs.h
+
+Interface change! Now waiting for all threads to finish before destroying.
+
+Converted the appropriate functions to return int instead of void.
+
+------------------------------------------------------------------------
+r3490 | shlomif | 2009-04-07 20:08:27 +0300 (Tue, 07 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/rwlock.c
+   M /fcfs-rwlock/trunk/pthreads/test_rwlock.c
+
+Implemented pthread_rwlock_fcfs_destroy.
+
+------------------------------------------------------------------------
+r3489 | shlomif | 2009-04-07 16:15:15 +0300 (Tue, 07 Apr 2009) | 4 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/test_rwlock.c
+
+Added the support for the timeout to test_rwlock.c .
+
+This is a pre-requisite for testing/implementing the rwlock_destroy function.
+
+------------------------------------------------------------------------
+r3488 | shlomif | 2009-04-07 15:58:23 +0300 (Tue, 07 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/test_rwlock.c
+
+test_rwlock.c : corrected a mesage and got rid of an unused struct memeber.
+
+------------------------------------------------------------------------
+r3487 | shlomif | 2009-04-07 15:54:12 +0300 (Tue, 07 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/CMakeLists.txt
+
+Added the debug flag to trigger -DPTHREAD_RWLOCK_FCFS_DEBUG=1 for the traces.
+
+------------------------------------------------------------------------
+r3477 | shlomif | 2009-04-04 17:31:19 +0300 (Sat, 04 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/Common.cmake
+   M /fcfs-rwlock/trunk/pthreads/man
+   A /fcfs-rwlock/trunk/pthreads/man/CMakeLists.txt
+
+Now building the man pages properly.
+
+------------------------------------------------------------------------
+r3476 | shlomif | 2009-04-04 14:19:42 +0300 (Sat, 04 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads
+   A /fcfs-rwlock/trunk/pthreads/AUTHORS
+   A /fcfs-rwlock/trunk/pthreads/CMakeLists.txt
+   A /fcfs-rwlock/trunk/pthreads/Common.cmake
+   M /fcfs-rwlock/trunk/pthreads/TODO
+   M /fcfs-rwlock/trunk/pthreads/man
+   A /fcfs-rwlock/trunk/pthreads/ver.txt
+
+Added CMakeLists.txt to build using CMake.
+
+------------------------------------------------------------------------
+r3475 | shlomif | 2009-04-04 13:49:09 +0300 (Sat, 04 Apr 2009) | 2 lines
+Changed paths:
+   M /fcfs-rwlock/trunk/pthreads/man
+
+Added the generated man pages to the svn:ignore.
+
+------------------------------------------------------------------------
+r3474 | shlomif | 2009-04-03 14:17:11 +0300 (Fri, 03 Apr 2009) | 3 lines
+Changed paths:
+   A /fcfs-rwlock/trunk/pthreads
+   A /fcfs-rwlock/trunk/pthreads/COPYING
+   A /fcfs-rwlock/trunk/pthreads/ChangeLog
+   A /fcfs-rwlock/trunk/pthreads/Docs
+   A /fcfs-rwlock/trunk/pthreads/Docs/FCFS_RWLock_Scheme.txt
+   A /fcfs-rwlock/trunk/pthreads/Docs/FCFS_RWLock_Scheme_RLE.txt
+   A /fcfs-rwlock/trunk/pthreads/INSTALL
+   A /fcfs-rwlock/trunk/pthreads/Makefile.am
+   A /fcfs-rwlock/trunk/pthreads/NEWS
+   A /fcfs-rwlock/trunk/pthreads/README
+   A /fcfs-rwlock/trunk/pthreads/TODO
+   A /fcfs-rwlock/trunk/pthreads/configure.in
+   A /fcfs-rwlock/trunk/pthreads/man
+   A /fcfs-rwlock/trunk/pthreads/man/Makefile.am
+   A /fcfs-rwlock/trunk/pthreads/man/create_man_links.sh
+   A /fcfs-rwlock/trunk/pthreads/man/pthread_rwlock_fcfs.pod
+   A /fcfs-rwlock/trunk/pthreads/pthread
+   A /fcfs-rwlock/trunk/pthreads/pthread/rwlock_fcfs.h
+   A /fcfs-rwlock/trunk/pthreads/pthread/rwlock_fcfs_queue.h
+   A /fcfs-rwlock/trunk/pthreads/queue.c
+   A /fcfs-rwlock/trunk/pthreads/rwlock.c
+   A /fcfs-rwlock/trunk/pthreads/rwlock_fcfs.h
+   A /fcfs-rwlock/trunk/pthreads/rwlock_fcfs_queue.h
+   A /fcfs-rwlock/trunk/pthreads/test_queue.cpp
+   A /fcfs-rwlock/trunk/pthreads/test_rwlock.c
+
+Added the pthread_fcfs_rwlock 0.4.0 distribution. Some essential autoconf
+files may be missing.
+
+------------------------------------------------------------------------
+
+From 0.3.5 to 0.4.0:
+--------------------
+
+New release.
+
+From 0.3.4 to 0.3.5:
+--------------------
+
+* Made test_rwlock an uninstalled binary.
+
+From 0.3.3 to 0.3.4:
+--------------------
+
+* Added the RLE Scheme to the distro.
+
+From 0.3.2 to 0.3.3:
+--------------------
+
+* Removed trailing whitespace.
+
+* Now mydebug just prints one line. (the more verbose debugging is #if'd
+out).
+
+* Changed mydebug to my_debug_print.
+
+* Changed the debug-less my_debug_print to { }. (so if (cond) my_debug_print()
+will work OK)
+
+From 0.3.1 to 0.3.2:
+--------------------
+
+* Now Removing queue junk at gain_read_generic.
+
+From 0.3.0 to 0.3.1:
+--------------------
+
+* Added a mydebug directive.
+
+* Printed the state of the queue and the rwlock.
+
+* Added another extract_first_non_disabled_item() at the end of 
+accept_pending_items().
+
+* The RWLock seems to work OK according to the dumps.
+
+From 0.2.0 to 0.3.0:
+--------------------
+
+* Changed the name of queue_poll to queue_peak.
+
+* Added queue_peak.
+
+* Removed a few redundant externs from queue.c
+
+* Changed the RWLock to RLE. Looks good, but I think accept_pending_items()
+need a little rework.
+
+* Re-worked accept_pending_items() - looks good.
+
+
+From 0.0.11 to 0.2.0:
+---------------------
+
+* Added an HTML page.
+
+* Put some meat in README.
+
+* Changed the version number to 0.2.0.
+
+* Added the man_MANs to EXTRA_DIST in man/Makefile.am so they will be
+included in the distribution.
+
+From 0.0.10 to 0.0.11:
+----------------------
+
+* Added an assert for num_readers > 0 in release().
+
+From 0.0.9 to 0.0.10:
+---------------------
+
+* Placed the man page in its own directory ($DIST/man).
+
+* Created man links to it.
+
+* Combined release_read() and release_write() into release().
+
+* Added a "Want Lock" debug message in gain_write()
+
+* Modified the man pages to reflect the release() change.
+
+From 0.0.8 to 0.0.9:
+--------------------
+
+* Added a man page. It is written in Perl POD and was spell checked.
+
+From 0.0.7 to 0.0.8:
+--------------------
+
+* Added some descriptive comments to pthread/rwlock_fcfs.h
+
+
+
